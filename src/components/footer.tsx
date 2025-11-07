@@ -62,7 +62,7 @@ const Footer: React.FC = () => {
 			</div>
 
 			<div className="max-w-7xl mx-auto mt-8 pt-4 border-t border-blue-700 text-center text-sm">
-				<p>© 2025 Playa La Rompe</p>
+				<p>© 2025 Kiosco Milaris</p>
 				<a href="http://michaelliendo.com" target="_blank" rel="noreferrer">
 					Creado por{" "}
 					<span className="text-coral-pink underline">michaelliendo.com</span>
