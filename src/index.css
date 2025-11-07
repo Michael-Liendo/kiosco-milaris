@@ -1,12 +1,15 @@
 @import "tailwindcss";
 
 @theme {
-	--color-sand-yellow: #ffd54f;
-	--color-coral-pink: #f06292;
-	--color-sunset-purple: #ba68c8;
-	--color-sunset-blue: #4fc3f7;
-	--color-dark-text: #212121;
+	/* Colores del logo de Kiosco Milaris */
+	--color-navy-blue: #2c4a5c;
+	--color-golden-orange: #e8a558;
+	--color-turquoise: #5fb9a8;
+	--color-sand-beige: #d4b896;
+	--color-coral-red: #d85a5a;
+	--color-dark-text: #1a2e3a;
 	--color-foam-white: #fafafa;
+	--color-light-turquoise: #7dd4c4;
 }
 
 .s {

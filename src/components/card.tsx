@@ -2,7 +2,7 @@ import type { MenuItem } from "../data/menu";
 
 export const Card = ({ title, description, image, price }: MenuItem) => {
 	return (
-		<div className="bg-white shadow-md rounded-lg max-w-sm mx-auto">
+		<div className="bg-white shadow-lg rounded-lg max-w-sm mx-auto border-2 border-sand-beige hover:border-golden-orange transition-colors">
 			<img
 				src={`/menu/${image}`}
 				alt={title}
@@ -12,11 +12,11 @@ export const Card = ({ title, description, image, price }: MenuItem) => {
 			/>
 
 			<div className="p-6">
-				<h1 className="text-2xl font-bold mb-1">{title}</h1>
-				<p style={{ whiteSpace: "pre-wrap" }}>{description}</p>
+				<h1 className="text-2xl font-bold mb-1 text-navy-blue">{title}</h1>
+				<p className="text-dark-text" style={{ whiteSpace: "pre-wrap" }}>{description}</p>
 
 				<div className="flex gap-2 justify-end">
-					<p className="text-xl text-dark-text font-bold">
+					<p className="text-xl text-coral-red font-bold">
 						{typeof price === "number" ? `$${price.toFixed(2)}` : price}
 					</p>
 				</div>
