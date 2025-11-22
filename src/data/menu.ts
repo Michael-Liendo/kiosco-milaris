@@ -113,7 +113,7 @@ export const menu: MenuItem[] = [
 	},
 	{
 		title: "Piña colada",
-		description: "Sin licor $5.00\nCon licor $6.00",
+		description: "Sin licor $5.00\nCon licor",
 		price: 6,
 		image: "pina.jpg",
 	},
