@@ -15,7 +15,7 @@ export const menu: MenuItem[] = [
 	{
 		title: "Bebidas",
 		description:
-			"Refresco 1.5L 3.5$\nAgua 3.5$\nMalta 1.5$\nRefresco de 1Lt 2.5$\nHielo 3$",
+			"Refresco 2L 3$\nAgua 3.5$\nMalta 1.5$\nRefresco de 1Lt 2.5$\nHielo 3$",
 		price: null,
 		image: "bebidas.webp",
 	},
@@ -76,6 +76,13 @@ export const menu: MenuItem[] = [
 		image: "deditos-pescado.webp",
 	},
 	{
+		title: "Deditos de pollo",
+		description:
+			"Tostón, Ensalada, Queso, Aguacate, Arepita, Papa frita, y Salsa tártara",
+		price: 16,
+		image: "deditos-pescado.webp",
+	},
+	{
 		title: "Medregal",
 		description:
 			"Tostón, Ensalada, Queso, Salsa, Aguacate, Arepita, y Papa frita",
@@ -100,7 +107,7 @@ export const menu: MenuItem[] = [
 	{
 		title: "Bebidas refrescantes",
 		description:
-			"Limonada frappe\nNaranjada frappe\nParchita frappe\n\nCon o sin granadina\nCon granadina $3.50",
+			"Limonada frappe\nNaranjada frappe\nParchita frappe\nCon granadina $3.50",
 		price: 3,
 		image: "frappe.jpg",
 	},
