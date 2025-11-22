@@ -14,7 +14,8 @@ export const menu: MenuItem[] = [
 	},
 	{
 		title: "Bebidas",
-		description: "Refresco 1.5L 3.5$\nAgua 3.5$\nMalta 1.5$",
+		description:
+			"Refresco 1.5L 3.5$\nAgua 3.5$\nMalta 1.5$\nRefresco de 1Lt 2.5$\nHielo 3$",
 		price: null,
 		image: "bebidas.webp",
 	},
@@ -43,7 +44,7 @@ export const menu: MenuItem[] = [
 		title: "Combo de roncador",
 		description:
 			"Tostón, Ensalada, Queso, Salsa, Aguacate, Arepita, y Papa frita",
-		price: 17,
+		price: 18,
 		image: "combo-roncador.webp",
 	},
 	{
@@ -97,16 +98,16 @@ export const menu: MenuItem[] = [
 		price: 16,
 	},
 	{
-		title: "Frappe",
+		title: "Bebidas refrescantes",
 		description:
-			"Limonada frappe\nNaranjada frappe\nParchita frappe\n\nCon o sin granadina\n$3.00\nCon granadina $3.50",
-		price: null,
+			"Limonada frappe\nNaranjada frappe\nParchita frappe\n\nCon o sin granadina\nCon granadina $3.50",
+		price: 3,
 		image: "frappe.jpg",
 	},
 	{
-		title: "Piña Colada",
+		title: "Piña colada",
 		description: "Sin licor $5.00\nCon licor $6.00",
-		price: null,
+		price: 6,
 		image: "pina.jpg",
 	},
 ];
