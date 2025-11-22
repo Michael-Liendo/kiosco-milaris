@@ -15,7 +15,7 @@ export const menu: MenuItem[] = [
 	{
 		title: "Bebidas",
 		description:
-			"Refresco 2L 3$\nAgua 3.5$\nMalta 1.5$\nRefresco de 1Lt 2.5$\nHielo 3$",
+			"Refresco 2L 3$\nAgua 2.5$\nMalta 1.5$\nRefresco de 1Lt 2.5$\nHielo 3$",
 		price: null,
 		image: "bebidas.webp",
 	},
