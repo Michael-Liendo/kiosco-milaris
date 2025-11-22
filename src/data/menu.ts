@@ -9,7 +9,7 @@ export const menu: MenuItem[] = [
 		title: "Empanadas",
 		description:
 			"Cazón, Camarón, Mechada, Pollo, Mozzarella, Molida, Salchichas, Queso y Plátano con queso",
-		price: 2.5,
+		price: 2,
 		image: "empanadas.webp",
 	},
 	{
@@ -71,7 +71,7 @@ export const menu: MenuItem[] = [
 		title: "Deditos de pescado",
 		description:
 			"Tostón, Ensalada, Queso, Aguacate, Arepita, Papa frita, y Salsa tártara",
-		price: 18,
+		price: 20,
 		image: "deditos-pescado.webp",
 	},
 	{
@@ -95,5 +95,18 @@ export const menu: MenuItem[] = [
 			"Ajillo, Tostón, Ensalada, Queso, Salsa, Aguacate, Arepita, y Papa frita",
 		image: "rueda-carite.webp",
 		price: 16,
+	},
+	{
+		title: "Frappe",
+		description:
+			"Limonada frappe\nNaranjada frappe\nParchita frappe\n\nCon o sin granadina\n$3.00\nCon granadina $3.50",
+		price: null,
+		image: "frappe.jpg",
+	},
+	{
+		title: "Piña Colada",
+		description: "Sin licor $5.00\nCon licor $6.00",
+		price: null,
+		image: "pina.jpg",
 	},
 ];
