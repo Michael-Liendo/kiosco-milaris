@@ -1,7 +1,7 @@
 export interface MenuItem {
 	title: string;
 	description: string;
-	price: string | number | null;
+	price: null | number | null;
 	image: string;
 }
 export const menu: MenuItem[] = [
@@ -9,7 +9,7 @@ export const menu: MenuItem[] = [
 		title: "Empanadas",
 		description:
 			"Cazón, Camarón, Mechada, Pollo, Mozzarella, Molida, Salchichas, Queso y Plátano con queso",
-		price: 2,
+		price: null,
 		image: "empanadas.webp",
 	},
 	{
@@ -30,63 +30,63 @@ export const menu: MenuItem[] = [
 		title: "Camarones al ajillo",
 		description:
 			"Tostón, Ensalada, Queso, Salsa, Aguacate, Arepita, y Papa fritas",
-		price: 23,
+		price: null,
 		image: "camarones-ajillo.webp",
 	},
 
 	{
 		title: "Tostón familiar",
 		description: "15 pieza de tostón, Ensalada, Salsa, Queso, y Aguacate",
-		price: 13,
+		price: null,
 		image: "toston-familiar.webp",
 	},
 	{
 		title: "Combo de roncador",
 		description:
 			"Tostón, Ensalada, Queso, Salsa, Aguacate, Arepita, y Papa frita",
-		price: 18,
+		price: null,
 		image: "combo-roncador.webp",
 	},
 	{
 		title: "Pargo frito",
 		description:
 			"Tostón, Ensalada, Queso, Salsa, Aguacate, Arepita, y Papa frita",
-		price: 18,
+		price: null,
 		image: "pargo-frito.webp",
 	},
 	{
 		title: "Fosforera",
 		description:
 			"Camarones, Calamar, pepitona, Pulpo, Mejillón, Jaiba, Almeja, Vaquita, y Arepitas",
-		price: 16,
+		price: null,
 		image: "fosforera.webp",
 	},
 	{
 		title: "Camarones rebosado",
 		description:
 			"Tostón, Ensalada, Queso, Aguacate, Arepita, Papa frita, y Salsa tártara",
-		price: 20,
+		price: null,
 		image: "camarones-rebosado.webp",
 	},
 	{
 		title: "Deditos de pescado",
 		description:
 			"Tostón, Ensalada, Queso, Aguacate, Arepita, Papa frita, y Salsa tártara",
-		price: 20,
+		price: null,
 		image: "deditos-pescado.webp",
 	},
 	{
 		title: "Deditos de pollo",
 		description:
 			"Tostón, Ensalada, Queso, Aguacate, Arepita, Papa frita, y Salsa tártara",
-		price: 16,
+		price: null,
 		image: "deditos-pescado.webp",
 	},
 	{
 		title: "Medregal",
 		description:
 			"Tostón, Ensalada, Queso, Salsa, Aguacate, Arepita, y Papa frita",
-		price: 16,
+		price: null,
 		image: "medregal.webp",
 	},
 
@@ -94,7 +94,7 @@ export const menu: MenuItem[] = [
 		title: "Mixto de camarón y calamar",
 		description:
 			"Tostón, Ensalada, Queso, Salsa, Aguacate, Arepita, Papa frita, y Salsa tártara",
-		price: 23,
+		price: null,
 		image: "mixto.webp",
 	},
 	{
@@ -102,19 +102,19 @@ export const menu: MenuItem[] = [
 		description:
 			"Ajillo, Tostón, Ensalada, Queso, Salsa, Aguacate, Arepita, y Papa frita",
 		image: "rueda-carite.webp",
-		price: 16,
+		price: null,
 	},
 	{
 		title: "Bebidas refrescantes",
 		description:
 			"Limonada frappe\nNaranjada frappe\nParchita frappe\nCon granadina $3.50",
-		price: 3,
+		price: null,
 		image: "frappe.jpg",
 	},
 	{
 		title: "Piña colada",
 		description: "Sin licor $5.00\nCon licor",
-		price: 6,
+		price: null,
 		image: "pina.jpg",
 	},
 ];
