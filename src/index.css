@@ -1,17 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-	/* Colores del logo de Kiosco Milaris */
-	--color-navy-blue: #2c4a5c;
-	--color-golden-orange: #e8a558;
-	--color-turquoise: #5fb9a8;
-	--color-sand-beige: #d4b896;
-	--color-coral-red: #d85a5a;
-	--color-dark-text: #1a2e3a;
+	/* Paleta Playa la Rompe (logo) */
+	--color-navy-blue: #0077b6;
+	--color-golden-orange: #f2d04a;
+	--color-turquoise: #00b2ca;
+	--color-sand-beige: #f3e9dc;
+	--color-coral-red: #c92a6e;
+	--color-dark-text: #1a1a1a;
 	--color-foam-white: #fafafa;
-	--color-light-turquoise: #7dd4c4;
-}
-
-.s {
-	color: #70cbf5;
+	--color-light-turquoise: #67d9ed;
+	--color-playa-burgundy: #880d1e;
 }

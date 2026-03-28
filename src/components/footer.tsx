@@ -2,7 +2,7 @@ import { Clock, Phone } from "lucide-react";
 
 const Footer: React.FC = () => {
 	return (
-		<footer className="bg-gradient-to-br from-navy-blue to-turquoise shadow-lg text-foam-white py-6 px-6">
+		<footer className="bg-gradient-to-br bg-navy-blue text-foam-white py-6 px-6">
 			<div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
 				<div>
 					<p className="text-lg font-bold mb-3">Contáctenos</p>
@@ -70,7 +70,7 @@ const Footer: React.FC = () => {
 			</div>
 
 			<div className="max-w-7xl mx-auto mt-8 pt-4 border-t border-golden-orange text-center text-sm">
-				<p>© 2025 Kiosco Milaris</p>
+				<p>© 2026 Playa la Rompe</p>
 				<a href="http://michaelliendo.com" target="_blank" rel="noreferrer">
 					Creado por{" "}
 					<span className="text-golden-orange underline hover:text-sand-beige transition-colors">
